@@ -1,0 +1,84 @@
+.checkoutItems{
+    width:100%;
+    margin-top: 20px;
+    padding:20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.checkoutItemUnits{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.checkoutItemUnits img{
+    width:25px;
+    height:25px;
+    margin-right: 10px;
+}
+.checkoutItemUnits p.itemName{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.checkoutItemUnits p.itemQuantity{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+    color:green;
+}
+.checkoutItemUnits p.itemPrice{
+    font-size: 15px;
+    font-weight: bold;
+}
+.confirmOrder{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    padding:10px;
+}
+.confirmOrder button{
+    width:90%;
+    margin-left: 5%;
+    background-color: green;
+    color:#fff;
+    border:none;
+    padding:15px 10px;
+    border-radius: 15px;
+}
+.billTitle{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.billTitle p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bill{
+    width:100%;
+    margin-top: 0px;
+    padding:20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.total{
+    width:100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.totalFinal{
+    width:100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.totalFinal p{
+    font-size: 18px;
+    font-weight: bold;
+}

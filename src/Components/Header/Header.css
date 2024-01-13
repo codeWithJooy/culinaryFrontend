@@ -1,0 +1,81 @@
+.header{
+    width:100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerImg{
+    width:45px;
+    height:45px;
+  }
+  .headerImg img {  
+     width:100%;
+     height:100%;
+     border-radius: 50%;;
+  }
+  .headerUser{
+    width: calc(100% - 145px);
+    padding: 0px 15px;
+  }
+  .headerIcons{
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .headerIconUnit{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerIconUnit img{
+    width:20px;
+    height:20px;
+  }
+
+  /*===============================
+             Header Checkout Starts
+  ===============================*/
+   .checkoutHeader{
+    width:100%;
+    padding: 20px 0px;
+   }
+   .checkoutHeaderTop{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   }
+   .checkoutHeaderTop img{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+   }
+   .checkoutHeaderTop p{
+    font-size: 18px;
+    font-weight: bold;
+   }
+   .checkoutHeaderBottom{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+   }
+   .checkoutHeaderBottom img{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+   }
+   .checkoutHeaderBottom p{
+    font-size: 16px;
+    font-weight: bold;
+   }
+  /*===============================
+             Header Checkout Ends
+  ===============================*/
